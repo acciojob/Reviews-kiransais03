@@ -36,7 +36,7 @@ const App = ()=>{
     return(<div>
     <h1 id="review-heading">Our Reviews</h1>
     <button className="random-btn" onClick={randombutton}>Surprise Me</button>
-    <div className="total-box">
+    <div className="review">
         <button onClick={(e)=>{btnclicked(e,-1)}} className="prev-btn">Previous</button>
         <Reviews currid={currid} setId={setCurrid}/>
         <button onClick={(e)=>{btnclicked(e,1)}} className="next-btn">Next</button>

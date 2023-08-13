@@ -11,13 +11,6 @@ button{
     align-items: center;
 }
 
-.total-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 25px;
-}
-
 .person-img {
     width: 900px;
     height: 600px;
@@ -28,8 +21,12 @@ button{
 }
 
 .review {
-    width: 900px;
-    height: 600px;
+    /* width: 900px;
+    height: 600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
 }
 
 .random-btn {

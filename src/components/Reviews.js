@@ -43,7 +43,7 @@ const Reviews = ({currid,setCurrid})=>{
       ];
 
     return(<>
-       {data.map((elem,index)=>{if(currid===elem.id) {return(<div key={elem.id} className="review">
+       {data.map((elem,index)=>{if(currid===elem.id) {return(<div key={elem.id}>
         <div id={`author-${elem.id}`} className="author">{elem.id}. {elem.name}</div>
         <div className="job">{elem.job}</div>
         <div className="info">{elem.text}</div>
