@@ -20,7 +20,7 @@ button{
     text-align: center;
 }
 
-.review {
+.inner-box {
     /* width: 900px;
     height: 600px; */
     display: flex;
